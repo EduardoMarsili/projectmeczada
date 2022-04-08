@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+
+
+    list-style: none;
+}
+
+.menu {
+
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+
+}
+
+body {
+
+    background-color: black;
+}
+
+.hamburguer {
+    width:200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navegação { 
+    
+align-items: center;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    flex-direction: row;
+
+
+
+    
+}
+
+.menu a{
+
+    color: cornsilk;
+text-shadow: 3px 3px 3px black;
+font-size: 22px;
+}
+
+.hakunamatata{
+
+    background-image: url(imagens/pexels-valeria-boltneva-1639562.jpg); 
+
+    background-size: cover;
+}
+
+.hamburguerart{
+
+    padding: 90px;
+color: white;
+text-shadow: 3px 3px 3px black;
+font-size: 3em;
+}
+
+.mec {
+
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.tega {
+
+    
+    width: auto;
+    height: 250px;
+    text-align: center;
+    
+
+}
+
+.tega img {
+    
+    margin-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 50%;
+
+}
+
+.colecao {
+
+    text-align: center;
+    
+}
+
+.gorgonzola {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.background {
+
+    position: absolute;
+    z-index: -2;
+
+    width: auto;
+    height: 250px;
+
+overflow: hidden;
+margin: 0 auto;
+
+}
+
+.background img {
+
+    width: 1223px;
+}
